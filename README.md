@@ -15,7 +15,8 @@ RealTimeSketchは落書きをリアルタイムでイラスト化するソフト
 ④一番下の行のpublic URLをクリック
 
 # Local Install
-Python3.10.Xがインストールされている環境前提です。（Python 3.10.8で起動確認済み）<br>
+Python: 3.8.10(3.10系でも動きました)（https://www.python.org/downloads/release/python-3810/）<br>
+CUDA Toolkit：11.8（https://developer.nvidia.com/cuda-11-8-0-download-archive）<br>
 ①適当なディレクトリでリポジトリをgit clone<br>
 ```
 cd C:/
@@ -36,4 +37,3 @@ git clone https://github.com/tori29umai0123/RealTimeSketch.git<br>
 # Usage
 prompt：画像の内容のタグ<br>
 control weight：落書きの影響度
-ScribbleMode：落書きモード。チェックを外すと落書きの影響がより厳密になる
