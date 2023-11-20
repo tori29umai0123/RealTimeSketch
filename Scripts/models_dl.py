@@ -90,9 +90,6 @@ if __name__ == "__main__":
     stable_diffusion_path = "Models/SD"
     download_diffusion_model(stable_diffusion_path)
 
-    contolnet_canny_path = "Models/controlnet/canny"
-    download_contolnet_canny_model(contolnet_canny_path)
-
     contolnet_scribble_path = "Models/controlnet/scribble"
     download_contolnet_scribble_model(contolnet_scribble_path)
 
