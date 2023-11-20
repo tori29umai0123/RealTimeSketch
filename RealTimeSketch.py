@@ -14,7 +14,7 @@ controlnet_canny_path ="Models/controlnet/canny"
 controlnet_scribble_path ="Models/controlnet/scribble"
 
 # パイプラインをグローバル変数として保持します
-scribble_pipe = None
+pipe = None
 
 low_threshold = 100
 high_threshold = 200
@@ -35,8 +35,8 @@ def Illust_generation_scribble(np_img,  prompt: str, c_weight_input: float):
 
     if np_img is None:
         return
-    global scribble_pipe
-    if scribble_pipe is None:
+    global pipe
+    if pipe is None:
         pipe = StableDiffusionControlNetPipeline.from_pretrained(
             sd_model_path,
             controlnet=controlnet,
