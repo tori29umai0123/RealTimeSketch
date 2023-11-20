@@ -15,8 +15,8 @@ RealTimeSketchは落書きをリアルタイムでイラスト化するソフト
 ④一番下の行のpublic URLをクリック
 
 # Local Install
-Python: [3.8.10](https://www.python.org/downloads/release/python-3810/) (It also worked on 3.10 series)  
-CUDA Toolkit: [11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
+Python: [3.8.10](https://www.python.org/downloads/release/python-3810/) (3.10でも起動確認済み)  
+CUDA Toolkit: [11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)<br>
 ①適当なディレクトリでリポジトリをgit clone<br>
 ```
 cd C:/
